@@ -1,0 +1,60 @@
+
+.crospic{
+height: 450px;
+
+}
+.ContainerRow{
+
+  justify-content: space-evenly;
+}
+
+#carouselExampleIndicators{
+    animation: mymove 4 s;
+    -webkit-animation: mymove 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.moreslide{
+  animation: mymove 4 s;
+  -webkit-animation: mymove 4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+.mycolumn{
+    max-width: 330px;
+    min-width: 100px;
+    height: 100%;
+    
+    animation: mymove 4 s;
+    -webkit-animation: mymove 4s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.mycolumn,.images:hover{
+    margin-top:5px;
+    transition: margin-top 1s;
+    transition: margin-top 1s;
+    
+  }
+.row{
+    background-color: transparent;
+    
+}
+.images{
+    max-width: 100%;
+    min-width: 100px;
+    margin-top: 10px;
+    height:300px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {top: 300px;}
+    to {top: 0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes mymove {
+    from {top: 300px;}
+    to {top: 0px;}
+  }

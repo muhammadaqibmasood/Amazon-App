@@ -1,0 +1,159 @@
+.my-navbar{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes example {
+    0%   {background-color:#343A40; left:0px; top:0px;}
+    25%  {background-color:rgb(0, 140, 255); left:0px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:#343A40; left:0px; top:0px;}
+  }
+  @-webkit-keyframes example {
+    0%   {background-color:#343A40; left:0px; top:0px;}
+    25%  {background-color:rgb(0, 183, 255); left:0px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:#343A40; left:0px; top:0px;}
+  }
+
+ #navbarul{
+     list-style: none;
+     font-size: 14px;
+ }
+ .mynav{
+     margin-left: 10px;
+ 
+ }
+ #button{
+     background-color: orange;
+     color: white;
+     margin-right: 20px;
+     margin-left:0px;
+ }
+ .mymodal{
+    
+     position: fixed;
+    top: 0px;
+    left: -5px;
+    bottom: 0;
+    height: 100%;
+    left: auto;
+    z-index: 1;
+    margin: 0;
+    
+   
+ }
+ #cros{
+     margin-right: 90%;
+ }
+ 
+ 
+ .dropdown-menu{
+    margin-right: 100px;
+ }
+ #navbarLinks{
+     color: white;
+ }
+ #navbarLinks1{
+     color: white;
+ }
+ #navbarLinks1:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+ }
+ #navbarLinks:hover{
+    color: blue;
+    border-radius: 5px;
+ }
+ .amazonpic{
+     width: 96px;
+    height: 30px;
+ 
+ }
+ #amazonpic{
+     width: 96px;
+    height: 30px;
+    margin-right: 60px;
+ }
+
+ #close{
+     
+    color: orange;
+    
+ }
+ 
+.navbar-form{
+    margin-top: 6.6px
+}
+
+  #searchbtn{
+      background-color:orange;
+      border: 1px solid #ADAEA9;
+  }
+  #searchbtn:hover{
+      background-color: rgb(216, 156, 4);
+  }
+  #row1{
+    margin-left: 80px;
+  }
+  #row2{
+    margin-left: 50px;
+  }
+   
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -50px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .cartlength{
+    font-size: 15px;
+  }
+  #main {
+    transition: margin-left .5s;
+    
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
